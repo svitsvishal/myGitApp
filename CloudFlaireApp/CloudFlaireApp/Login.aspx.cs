@@ -40,7 +40,7 @@ namespace CloudFlaireApp
             if (  txtUsername.Text == "admin" && txtPassword.Text == "password")
             {
                 // Successful login
-                Response.Redirect("Default.aspx");
+                Response.Redirect("Default.aspx");//new changes 
             }
             else
             {
